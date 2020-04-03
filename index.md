@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-
 # CodePath Android Mobile App Design: Flashcard
 
 The __CodePath Android Mobile App Design__ course labs culminated in the completion of a basic flashcard app. 
-
 
 ### My app features
 
@@ -19,5 +17,6 @@ The __CodePath Android Mobile App Design__ course labs culminated in the complet
 
 ![FlashcardGif](https://i.imgur.com/MyLTqAp.gif)
 
+&nbsp;
 
 ### *...More to Come!*
