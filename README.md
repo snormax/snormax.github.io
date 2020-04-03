@@ -1,3 +1,1 @@
-# snormax.github.io
-
-Hopefully this will help me get a job someday! :)
+Just a listing of the more interesting projects I've done
