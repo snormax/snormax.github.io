@@ -17,7 +17,7 @@ The __CodePath Android Mobile App Design__ course labs culminated in the complet
 
 ### Here it is in action!
 
-![FlashcardGif](https://i.imgur.com/MyLTqAp.gifv)
+![FlashcardGif](https://i.imgur.com/MyLTqAp.gif)
 
 
-# **...More to Come!**
+# *...More to Come!*
