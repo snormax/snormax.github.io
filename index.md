@@ -6,7 +6,7 @@ layout: default
 
 The __CodePath Android Mobile App Design__ course labs culminated in the completion of a basic flashcard app. 
 
-### My app features:
+### My app features
 * Options to add or delete cards.
 * Options to hide multiple choise answers.
 * Various animation effects
