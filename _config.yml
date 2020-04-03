@@ -1,15 +1,13 @@
-permalink: /:categories/:year/:month/:day/:title
-
 theme: jekyll-theme-slate
 exclude: ["README.md"]
-hightlighter: rouge
 
 title : snormax.github.io
-tagline : test6?
+description : A simple site for my modest works
+production_url : https://snormax.github.io/
 author :
   name : snormax
   email : snormax@users.noreply.github.com
   github : snormax
   feedburner : nil
 
-production_url : https://snormax.github.io/
+show_downloads : false
