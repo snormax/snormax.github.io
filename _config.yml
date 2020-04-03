@@ -4,7 +4,8 @@ theme: jekyll-theme-slate
 exclude: ["README.md"]
 hightlighter: rouge
 
-title : test1
+title : https://snormax.github.io/
+tagline : test6
 author :
   name : snormax
   email : snormax@users.noreply.github.com
