@@ -1,3 +1,4 @@
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# snormax.github.io
+## A simple site for my modest works
+
+Words words words
