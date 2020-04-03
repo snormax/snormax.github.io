@@ -1,3 +1,3 @@
 # snormax.github.io
 
-Stuff will go here. Great stuff. The best.
+Hopefully this will help me get a job! :)
