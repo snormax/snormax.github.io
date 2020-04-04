@@ -8,7 +8,7 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 ### My app features
 
 * Option to add or delete cards.
-* Option to hide multiple choice answers.
+* Option to show multiple choice answers.
 * Various animation effects, a timer, etc.
 * The persistence library Room.
 * And a SQL database.
