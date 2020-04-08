@@ -5,7 +5,7 @@ layout: default
 
 The _CodePath Android Mobile App Design_ course labs culminated in the completion of a basic flashcard app. 
 
-### My app features
+### My app features:
 
 * Option to add or delete cards.
 * Option to show multiple choice answers.
@@ -18,5 +18,7 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 ![FlashcardGif](https://i.imgur.com/dh8JZZD.gif)
 
 &nbsp;
+
+Additional GitHub acount information may be found at https://github.com/snormax
 
 ### *...more to come!*
