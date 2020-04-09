@@ -17,7 +17,7 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 
 ![FlashcardGif](https://i.imgur.com/dh8JZZD.gif)
 
-[My GitHub](https://github.com/snormax).
+[My GitHub](https://github.com/snormax)
 
 &nbsp;
 
