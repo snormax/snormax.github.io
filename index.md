@@ -20,6 +20,7 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 &nbsp;
 
 ---
+---
 
 &nbsp;
 
@@ -54,6 +55,7 @@ Time to put those _API Test Project_ skills to use!
 
 &nbsp;
 
+---
 ---
 
 &nbsp;
