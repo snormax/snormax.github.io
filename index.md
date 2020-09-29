@@ -25,13 +25,13 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 
 # API Test Project
 
-There is so much to learn -- so best to learn by doing! Goals: REST API and JSON familiarity
+So much to learn -- so best to learn by doing! Goals: REST API and JSON familiarity.
 
 ### This project featured:
 
-* Solved the hypothetical problem of maximising attendees to a two-day event
-* Heroku hosted REST API including: requests, posts of JSON data with status codes and validation
-* Manipulation and creation of JSON data
+* Heroku hosted REST API including: requests, posts of JSON data with status codes and validation.
+* Manipulation and creation of JSON data.
+* Post verifiable correct solution for the hypothetical problem of maximising attendees to a two-day event.
 
 ### Wait, no pretty GIF this time?!
 
@@ -49,7 +49,7 @@ Yep, time to put those _API Test Project_ skills to use!
 
 ### Currently:
 
-* Reading and scheming -- and then revising my scheming to suit reality
+* Reading and scheming -- and then revising my scheming to suit reality.
 
 &nbsp;
 
