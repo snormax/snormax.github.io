@@ -34,7 +34,7 @@ So much to learn -- so best to learn by doing! Goals: REST API and JSON familiar
 * Manipulation and creation of JSON data.
 * Post verifiable correct solution for the hypothetical problem of maximising attendees to a two-day event.
 
-### Wait, no pretty GIF this time?!
+### Wait, no GIF this time?!
 
 The culmination of these skills will be represented in the following project...
 
