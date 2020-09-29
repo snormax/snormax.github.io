@@ -29,7 +29,7 @@ So much to learn -- so best to learn by doing! Goals: REST API and JSON familiar
 
 ### This project featured:
 
-* Heroku hosted REST API including: requests, posts of JSON data with status codes and validation.
+* Heroku deployed REST API including: requests and  posts of JSON data with complete status codes and validation.
 * Manipulation and creation of JSON data.
 * Post verifiable correct solution for the hypothetical problem of maximising attendees to a two-day event.
 
