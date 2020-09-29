@@ -13,7 +13,7 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 * The persistence library Room.
 * And a SQL database.
 
-### Here it is in action!
+### Here it is in action:
 
 ![FlashcardGif](https://i.imgur.com/dh8JZZD.gif)
 
@@ -62,4 +62,3 @@ Time to put those _API Test Project_ skills to use!
 
 
 ### *...more to come!*
-[My GitHub](https://github.com/snormax)
