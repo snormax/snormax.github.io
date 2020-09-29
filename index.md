@@ -18,6 +18,8 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 ![FlashcardGif](https://i.imgur.com/dh8JZZD.gif)
 
 &nbsp;
+&nbsp;
+&nbsp;
 
 # API Test Project
 
@@ -29,10 +31,12 @@ There is so much to learn -- so best to learn by doing! Goals: REST API and JSON
 * Heroku hosted REST API including: requests, posts of JSON data with status codes and validation
 * Manipulation and creation of JSON data
 
-### Wait, no pretty gif this time?!
+### Wait, no pretty GIF this time?!
 
-Nope, because the culmination of these skills will be represented in the following project...
+The culmination of these skills will be represented in the following project...
 
+&nbsp;
+&nbsp;
 &nbsp;
 
 # Reddit Bot:
@@ -44,6 +48,9 @@ Yep, time to put those _API Test Project_ skills to use!
 * Reading and scheming -- and then revising my scheming to suit reality
 
 &nbsp;
+&nbsp;
+&nbsp;
+
 
 ### *...more to come!*
 [My GitHub](https://github.com/snormax)
