@@ -45,7 +45,7 @@ The culmination of these skills will be represented in the following project...
 
 # Reddit Bot:
 
-Yep, time to put those _API Test Project_ skills to use!
+Time to put those _API Test Project_ skills to use!
 
 ### Currently:
 
