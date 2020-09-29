@@ -1,1 +1,1 @@
-Just a listing of the more interesting projects I've done
+Just a list of projects I have done beyond coursework.
