@@ -45,13 +45,15 @@ The culmination of these skills will be represented in the following project...
 
 &nbsp;
 
-# Reddit Bot:
+# Reddit Bot: Something!
 
 Time to put those _API Test Project_ skills to use!
 
 ### Currently:
 
-* Reading and scheming -- and then revising my scheming to suit reality.
+* After several reality checks, I've settled on a concept!
+* Successfully tested PRAW processes, wrote code and test cases.
+* Still need to field test it
 
 &nbsp;
 
