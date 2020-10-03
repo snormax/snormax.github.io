@@ -51,7 +51,7 @@ Time to put those _API Test Project_ skills to use!
 
 ### Currently:
 
-* After several reality checks, I've settled on a concept!
+* After several reality checks I've settled on a concept!
 * Successfully tested PRAW processes, wrote code and test cases.
 * Still need to field test it
 
