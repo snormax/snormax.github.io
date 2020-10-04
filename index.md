@@ -45,9 +45,9 @@ The culmination of these skills will be represented in the following project...
 
 &nbsp;
 
-# Reddit Bot: Something!
+# Reddit Bot: Rock, Paper, Scissors
 
-Time to put those _API Test Project_ skills to use!
+Resolve disputes with civility!
 
 ### Currently:
 
