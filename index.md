@@ -15,7 +15,7 @@ The _CodePath Android Mobile App Design_ course labs culminated in the completio
 
 ### Here it is in action:
 
-![FlashcardGif](https://i.imgur.com/dh8JZZD.gif)
+![FlashcardGif](/img/flashcard_app.gif)
 
 &nbsp;
 
@@ -51,10 +51,10 @@ Time to put those _API Test Project_ skills to use!
 
 ### Currently:
 
-* After several reality checks I've settled on a concept!
-* Successfully tested PRAW processes, wrote code and test cases.
-* Still need to field test it.
+* After several reality checks it works!
 * Still need to host it on Heroku.
+
+![Win](/img/bot_winner.png)
 
 &nbsp;
 
