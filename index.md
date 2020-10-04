@@ -51,7 +51,7 @@ Time to put those _API Test Project_ skills to use!
 
 ### Currently:
 
-* After several reality checks it works!
+* After several reality checks: it works!
 * Still need to host it on Heroku.
 
 ![Win](/img/bot_winner.png)
