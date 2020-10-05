@@ -2,7 +2,7 @@ theme: jekyll-theme-slate
 exclude: ["README.md"]
 
 title : snormax.github.io
-description : A simple site for my modest works
+description : A simple site for my extracurricular projects
 production_url : https://snormax.github.io/
 author :
   name : snormax

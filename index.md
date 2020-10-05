@@ -51,8 +51,11 @@ Resolve disputes with civility!
 
 ### Currently:
 
-* After several reality checks: it works!
-* Still need to host it on Heroku.
+* Utilizes Python Reddit API Wrapper (PRAW).
+* Replies to user mentions to initiate a Rock, Paper, Scissor match.
+* Parties to the match then private message the bot.
+* After 5 minutes (or the above) the bot replies with the result.
+* Still need to host it on Heroku -- not running continuously.
 
 ![Win](/img/bot_winner.png)
 
