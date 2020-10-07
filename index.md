@@ -55,7 +55,7 @@ Resolve disputes with civility!
 * Replies to user mentions to initiate a Rock, Paper, Scissor match.
 * Parties to the match then private message the bot.
 * After 5 minutes (or the above) the bot replies with the result.
-* Still need to host it on Heroku -- not running continuously.
+* Now deployed to Heroku!
 
 ![Win](/img/bot_winner.png)
 
