@@ -66,5 +66,20 @@ Resolve disputes with civility!
 
 &nbsp;
 
+# Selenium Web Scraper
+
+Independently built a web scraper for a small tech start-up: 
+* Automation will surely increase their productivity.
+* Improved my knowledge of DOM structure by using XPath on ID-less elements.
+* Improved my error/bug handling by resolving inconsistent server anomalies.
+* About all discretion should allow me to say -- just proud of it!
+
+&nbsp;
+
+---
+---
+
+&nbsp;
+
 
 ### *...more to come!*
