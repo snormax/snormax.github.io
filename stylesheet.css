@@ -48,6 +48,7 @@ header h1 {
 
 header h6 {
     margin: 0;
+    font-weight:normal;
 }
 
 img {
@@ -96,11 +97,9 @@ footer {
 }
 
 footer a:visited {
-    text-decoration: none;
     color: white;
 }
 
 footer a:link {
-    text-decoration: none;
     color: white;
 }
