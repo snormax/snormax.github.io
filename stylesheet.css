@@ -58,7 +58,7 @@ img {
 nav {
     width: 100%;
     background: #ccc;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 nav a {
