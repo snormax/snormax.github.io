@@ -1,1 +1,1 @@
-Just a list of projects I have done beyond coursework.
+A simple site for my extracurricular projects.
