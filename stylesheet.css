@@ -38,8 +38,12 @@ header {
     font-size: 30px;
     color: white;
     margin: 0 auto;
-    float: none;
     horiz-align: center;
+}
+
+#logo {
+    padding: 0 10px 0 0;
+    margin-bottom: -5px;
 }
 
 header h1 {
@@ -50,6 +54,8 @@ header h6 {
     margin: 0;
     font-weight:normal;
 }
+
+
 
 img {
     padding-left: 20px;
