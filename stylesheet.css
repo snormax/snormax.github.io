@@ -46,13 +46,15 @@ header {
     margin-bottom: -5px;
 }
 
-header h1 {
+#title {
     margin: 0;
 }
 
-header h6 {
+#subtitle {
     margin: 0;
+    font-size: 62%;
     font-weight:normal;
+    font-style: italic;
 }
 
 
@@ -74,7 +76,7 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 nav a:hover {
