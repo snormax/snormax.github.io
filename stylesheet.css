@@ -26,6 +26,10 @@ body {
     background-color: #f1f1f1;
 }
 
+button {
+    margin-left: 20px
+}
+
 div {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -62,8 +66,8 @@ header {
 }
 
 img {
-    padding-left: 20px;
-    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 nav {
