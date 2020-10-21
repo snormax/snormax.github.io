@@ -6,8 +6,6 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 140px;
-    scroll-margin-left: 20px;
-    scroll-padding-left: 20px;
 }
 
 article {
@@ -30,37 +28,34 @@ div {
     padding: 20px 0 20px 0
 }
 
-h2 {
-    margin-top: -285px;
-    padding-top: 285px;
-    display: inline-block;
-}
-
 header {
-    background-color: #333333;
     text-align: left;
     font-size: 30px;
     color: white;
     margin: 0;
+    padding: 0;
     horiz-align: center;
     width: 100%;
     position: fixed;
+    background-color: #333333;
     box-shadow: 0 0 10px 0 #333333;
 }
 
 #logo {
-    padding: 0 10px 0 20px;
-    margin: 0 0 -3px 20px;
+    padding: 0 5px 0 20px;
+    margin: 0;
     height: .9em;
 }
 
 #title {
-    margin: 0 0 -.37em -20px;
+    margin: 0;
+    padding: 0;
 }
 
 #subtitle {
-    margin: 5px 5px 5px 20px;
-    font-size: 62%;
+    padding: 5px 5px 5px 20px;
+    margin: -25px 0 0 0;
+    font-size: 61%;
     font-weight: normal;
     font-style: italic;
 }
