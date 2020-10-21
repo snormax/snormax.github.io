@@ -5,11 +5,11 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 140px;
+    scroll-padding-top: 130px;
 }
 
 article {
-    padding: 140px 20px 20px;
+    padding: 130px 20px 20px;
     width: 100%;
     background-color: #f1f1f1;
     max-width: 600px;
@@ -37,7 +37,7 @@ header {
     horiz-align: center;
     width: 100%;
     position: fixed;
-    -webkit-transform: translateZ(0);
+    transform:translateZ(0);
     background-color: #333333;
     box-shadow: 0 0 10px 0 #333333;
 }
