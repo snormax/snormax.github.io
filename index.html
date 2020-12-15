@@ -11,17 +11,82 @@
     <h1 id="title"><img id="logo" src="img/snorlax_zzz.png" alt="Snorlax"/>Snormax</h1>
     <h6 id="subtitle">A simple site for my extracurricular projects</h6>
     <nav>
-        <a style="padding-left: 20px" href="#flashcard">Flashcard</a>
-        <a href="#api_test">API Test</a>
-        <a href="#reddit_bot">Reddit Bot</a>
-        <a href="#scraper">Scraper</a>
+        <a style="padding-left: 20px" href="#crypto">Crypto</a>
         <a href="#website">Website</a>
+        <a href="#scraper">Scraper</a>
+        <a href="#reddit_bot">Reddit Bot</a>
+        <a href="#api_test">API Test</a>
+        <a href="#flashcard">Flashcard</a>
     </nav>
 </header>
 <article>
+    <div id="crypto">
+        <h2>Cryptocurrency Arbitrage</h2>
+        <h4><i>Utilizes: Python, EC2, DynamoDB, Cloud9, CircleCl, PyTest, Docker</i></h4>
+        <p>Profit on differences between exchanges via high-frequency trading<br><i>This is my current project -- more details to come!</i></p>
+    </div>
+    <hr>
+    <div id="website">
+        <h2>Website Redo</h2>
+        <h4><i>Utilized: HTML, CSS</i></h4>
+        <p>Previously this site used the Jekyll theme: Slate -- no longer! This is <i>all</i> me :)</p>
+        <h3>Improvements:</h3>
+        <ul>
+            <li>Enables further improvements.</li>
+            <li>Added a navigation bar and a logo!</li>
+            <li>Set header as fixed (caused MANY issues)</li>
+            <li>Displays best when not on mobile -- working on that!</li>
+            <li>Example of the Slate theme with which this website began:</li>
+        </ul>
+        <img src="img/jekyll_slate.png" alt="Default" width="540">
+    </div>
+    <hr>
+    <div id="scraper">
+        <h2>Selenium Web Scraper</h2>
+        <h4><i>Utilized: Python, Selenium, AWS RDS, AWS DynamoDB</i></h4>
+        <p>Independently built a web scraper for a small tech start-up!</p>
+        <h3>Results:</h3>
+        <ul>
+            <li>Automation will surely increase their productivity.</li>
+            <li>Improved my knowledge of DOM structure i.e.: using XPath on ID-less elements.</li>
+            <li>Improved my debugging by handling website inconsistencies.</li>
+            <li>About all discretion should allow me to say -- just proud of it!</li>
+            <li>UPDATE: added an AWS RDS!...Migrated to DynamoDB</li>
+        </ul>
+        <img src="img/scraper.png" alt="DynamDB" width="540">
+    </div>
+    <hr>
+    <div id="reddit_bot">
+        <h2>Reddit Bot: Rock, Paper, Scissors</h2>
+        <h4><i>Utilized: Python Reddit API Wrapper (PRAW), Python, Heroku</i></h4>
+        <p>Resolve disputes with civility!</p>
+        <h3>Process:</h3>
+        <ul>
+            <li>Bot replies to user mentions to initiate a 'Rock, Paper, Scissors' match.</li>
+            <li>Parties to the match then private message the bot as prompted.</li>
+            <li>After 5 minutes (or the above) the bot replies with the result.</li>
+            <li>Now deployed to Heroku!</li>
+        </ul>
+        <img src="img/bot_winner.png" alt="Complete Match" width="540">
+    </div>
+    <hr>
+    <div id="api_test">
+        <h2>API Test</h2>
+        <h4><i>Utilized: Python, Flask,Heroku</i></h4>
+        <p>Improve REST API and JSON familiarity.</p>
+        <h3>This project featured:</h3>
+        <ul>
+            <li>Heroku deployed REST API including: requests and posts of JSON data with complete status codes and
+                validation.
+            <li>Manipulation and creation of JSON data.
+            <li>Post verifiable correct solution for the hypothetical problem of maximising attendees to a two-day
+                event.
+        </ul>
+        <img src="img/api_tests.png" alt="Unittest" width="540">
+    </div>
     <div id="flashcard">
         <h2>CodePath Android Mobile App Design: Flashcard</h2>
-        <h3><i>Utilized: Android, Java, SQLite, Room</i></h3>
+        <h4><i>Utilized: Android, Java, SQLite, Room</i></h4>
         <p>The <i>CodePath Android Mobile App Design</i> course labs culminated in the completion of a basic
             flashcard app.</p>
         <h3>My app features:</h3>
@@ -35,74 +100,10 @@
         <img src="img/flashcard_app.gif" alt="Flashcard Features" height="400">
     </div>
     <hr>
-    <div id="api_test">
-        <h2>API Test</h2>
-        <h3><i>Utilized: Python, Heroku</i></h3>
-        <p>Improve REST API and JSON familiarity.</p>
-        <h3>This project featured:</h3>
-        <ul>
-            <li>Heroku deployed REST API including: requests and posts of JSON data with complete status codes and
-                validation.
-            <li>Manipulation and creation of JSON data.
-            <li>Post verifiable correct solution for the hypothetical problem of maximising attendees to a two-day
-                event.
-        </ul>
-    </div>
-    <hr>
-    <div id="reddit_bot">
-        <h2>Reddit Bot: Rock, Paper, Scissors</h2>
-        <h3><i>Utilized: Python Reddit API Wrapper (PRAW), Python, Heroku</i></h3>
-        <p>Resolve disputes with civility!</p>
-        <h3>Process:</h3>
-        <ul>
-            <li>Bot replies to user mentions to initiate a 'Rock, Paper, Scissors' match.</li>
-            <li>Parties to the match then private message the bot as prompted.</li>
-            <li>After 5 minutes (or the above) the bot replies with the result.</li>
-            <li>Now deployed to Heroku!</li>
-        </ul>
-        <img src="img/bot_winner.png" alt="Complete Match" width="540">
-    </div>
-    <hr>
-    <div id="scraper">
-        <h2>Selenium Web Scraper</h2>
-        <h3><i>Utilized: Python, Selenium</i></h3>
-        <p>Independently built a web scraper for a small tech start-up!</p>
-        <h3>Results:</h3>
-        <ul>
-            <li>Automation will surely increase their productivity.</li>
-            <li>Improved my knowledge of DOM structure i.e.: using XPath on ID-less elements.</li>
-            <li>Improved my debugging by handling website inconsistencies.</li>
-            <li>About all discretion should allow me to say -- just proud of it!</li>
-            <li>UPDATE: added an AWS RDS!...Migrated to DynamoDB</li>
-        </ul>
-        <img src="img/scraper.png" alt="DynamDB" width="540">
-    </div>
-    <hr>
-    <div id="website">
-        <h2>Website Redo</h2>
-        <h3><i>Utilized: HTML, CSS</i></h3>
-        <p>Previously this site used the Jekyll theme: Slate -- no longer! This is <i>all</i> me :)</p>
-        <h3>Improvements:</h3>
-        <ul>
-            <li>Enables further improvements.</li>
-            <li>Added a navigation bar and a logo!</li>
-            <li>Set header as fixed (caused MANY issues)</li>
-            <li>Displays best when not on mobile -- working on that!</li>
-        </ul>
-    </div>
-    <hr>
-    <div id="crypto">
-        <h2>Cryptocurrency Arbitrage</h2>
-        <h3><i>Utilizes: Python, EC2, DynamoDB, Cloud9, CircleCl, PyTest, Docker</i></h3>
-        <p>Profit on differences between exchanges via high-frequency trading<br>This is my current project -- more details to come!</p>
-
-
-
-    </div>
-    <hr>
     <div>
         <h3><i>...more to come!</i></h3>
     </div>
+    <hr>
 </article>
 <footer>
     <p>Published with <a href="https://pages.github.com">GitHub Pages</a>
