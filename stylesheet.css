@@ -30,13 +30,13 @@ header {
 }
 
 #logo {
-    padding: 5px 5px 0 20px;
+    padding: 0 5px 0 20px;
     margin: 0;
     height: .9em;
 }
 
 #title {
-    margin: 0;
+    margin: 5px 0 0 0;
     padding: 0;
     line-height: 0;
 }
