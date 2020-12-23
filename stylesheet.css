@@ -30,7 +30,7 @@ header {
 }
 
 #logo {
-    padding: 0 5px 0 20px;
+    padding: 5px 5px 0 20px;
     margin: 0;
     height: .9em;
 }
@@ -38,12 +38,13 @@ header {
 #title {
     margin: 0;
     padding: 0;
+    line-height: 0;
 }
 
 #subtitle {
     padding: 5px 5px 5px 20px;
-    margin: -20px 0 0 0;
-    font-size: 61%;
+    margin: 0;
+    font-size: 60%;
     font-weight: normal;
     font-style: italic;
 }
