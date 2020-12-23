@@ -15,7 +15,6 @@ body {
 }
 
 header {
-    text-align: left;
     color: white;
     margin: 0;
     padding: 0;
@@ -27,13 +26,11 @@ header {
     z-index: 1;
 }
 
-#logo-and-text{
+#logo-and-titles{
     padding: 5px 20px 5px 20px;
     margin: 0;
     width: 100%;
-    font-size: 30px;
-    horiz-align: center;
-    text-align: center;
+    text-align: left;
 }
 
 #logo {
@@ -43,6 +40,7 @@ header {
 }
 
 #title {
+    font-size: 60px;
     margin: 0;
     padding: 0;
 }
@@ -50,7 +48,7 @@ header {
 #subtitle {
     margin: -20px 0 0 0;
     padding: 0;
-    font-size: 61%;
+    font-size: 18px;
     font-weight: normal;
     font-style: italic;
 }
@@ -61,6 +59,7 @@ nav {
     overflow: auto;
     margin: 0;
     padding-left: 10px;
+    text-align: center;
 }
 
 nav a {
