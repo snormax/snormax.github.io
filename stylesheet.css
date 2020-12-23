@@ -15,9 +15,12 @@ body {
 }
 
 header {
+    text-align: left;
+    font-size: 30px;
     color: white;
     margin: 0;
     padding: 0;
+    horiz-align: center;
     width: 100%;
     position: fixed;
     transform: translateZ(0);
@@ -26,29 +29,22 @@ header {
     z-index: 1;
 }
 
-#logo-and-titles{
-    padding: 5px 20px 5px 20px;
-    margin: 0;
-    width: 100%;
-    text-align: left;
-}
-
 #logo {
-    padding: 0 5px 0 0;
+    padding: 5px 5px 0 20px;
     margin: 0;
     height: .9em;
 }
 
 #title {
-    font-size: 60px;
     margin: 0;
     padding: 0;
+    line-height: 0;
 }
 
 #subtitle {
-    margin: -20px 0 0 0;
-    padding: 0;
-    font-size: 18px;
+    padding: 5px 5px 5px 20px;
+    margin: 0;
+    font-size: 60%;
     font-weight: normal;
     font-style: italic;
 }
@@ -59,7 +55,6 @@ nav {
     overflow: auto;
     margin: 0;
     padding-left: 10px;
-    text-align: center;
 }
 
 nav a {
