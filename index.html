@@ -24,13 +24,15 @@
 <article>
     <div id="crypto">
         <h2>Cryptocurrency Arbitrage</h2>
-        <h4><i>Utilizes: Python, EC2, DynamoDB, Cloud9, CircleCi, PyTest, Docker</i></h4>
-        <p>Profit on differences between exchanges via high-frequency trading.<br><i>This is my current project -- more
+        <h4><i>Utilizes: Python, CircleCI, Docker, PyTest, AWS: EC2, DynamoDB, Cloud9</i></h4>
+        <p>Working as a team of two to develop an algorithm that leverages minor price variations between exchanges via
+            high-frequency trading.<br><i>This is my current project -- more
             details to come!</i></p>
         <h3>Details:</h3>
         <ul>
             <li>Using 'pipenv' instead of my usual 'venv'.</li>
             <li>Using industry standard branching, commit messages, and pull request/approval/merge.</li>
+            <li>Standardized client wrapper logic and structure; automated testing and deployment with CircleCI.</li>
             <li>Goals:</li>
             <li style="list-style-type: none">
                 <ul>
@@ -48,15 +50,13 @@
     <hr>
     <div id="scraper">
         <h2>Selenium Web Scraper</h2>
-        <h4><i>Utilizes: Python, Selenium, AWS RDS, AWS DynamoDB</i></h4>
+        <h4><i>Utilizes: Python, Selenium, Docker, GeckoDriver, AWS: Lambda, DynamoDB, CloudWatch</i></h4>
         <p>Independently built a web scraper for a tech start-up!</p>
-        <h3>Results:</h3>
+        <h3>Details:</h3>
         <ul>
-            <li>Automation will surely increase their productivity.</li>
-            <li>Improved my knowledge of DOM structure e.g.: using XPath on ID-less elements.</li>
-            <li>Improved my debugging by handling website inconsistencies.</li>
-            <li>About all discretion should allow me to say -- just proud of it!</li>
-            <li>Added an AWS RDS ...later migrated to DynamoDB.</li>
+            <li>Worked with Invidica (500 Startups) to identify automatable data aggregation tasks.</li>
+            <li>Deployed program to an AWS Lambda triggered by a cron job from a CloudWatch event.</li>
+            <li>Stored data in AWS RDS with fine-tuned queries; later migrated to DynamoDB.</li>
         </ul>
         <img src="img/scraper.png" alt="DynamDB">
     </div>
@@ -82,11 +82,8 @@
         <p>Improve REST API and JSON familiarity.</p>
         <h3>Features:</h3>
         <ul>
-            <li>Heroku deployed REST API including: requests and posts of JSON data with complete status codes and
-                validation.
-            <li>Manipulation and creation of JSON data.
-            <li>Post verifiable correct solution for the hypothetical problem of maximizing attendees to a two-day
-                event.
+            <li>Developed and consumed a REST API for the hypothetical problem of maximizing attendees to a two-day event.</li>
+            <li>Provided an authenticated POST endpoint to verify the solution, responded with a JSON payload and status.</li>
         </ul>
         <img src="img/api_test_tests.png" alt="Unittest">
     </div>
@@ -94,8 +91,7 @@
     <div id="flashcard">
         <h2>CodePath Android Mobile App Design: Flashcard</h2>
         <h4><i>Utilized: Android, Java, SQLite, Room</i></h4>
-        <p>The <i>CodePath Android Mobile App Design</i> course labs culminated in the completion of a basic
-            flashcard app.</p>
+        <p>Implemented a flashcard app as the culmination of a <i>CodePath Android Mobile App Design</i> course.</p>
         <h3>Features:</h3>
         <ul>
             <li>Option to add or delete cards.</li>
