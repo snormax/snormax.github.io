@@ -8,11 +8,9 @@ function set_buffers(){
     // anchor.style.marginTop = "-1" + header_height;
 
     let header_height = document.getElementById("header").offsetHeight;
-    document.getElementById("article").style.paddingTop = String(header_height * .7) + "px";
-
-    let anchor = document.querySelectorAll(".anchor")
-    anchor.style.paddingTop = String(header_height * 1.5) + "px";
-    anchor.style.marginTop = String(-1.5 * header_height) + "px";
+    if (header_height > 0) {
+        document.getElementById("article").style.paddingTop = String(header_height * .7) + "px";
+    }
 }
 
 let counter = 1;
