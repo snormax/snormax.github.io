@@ -1,17 +1,10 @@
-
 function set_buffers(){
-    // let header_height = document.getElementById("header").style.height;
-    // document.getElementById("article").style.paddingTop = header_height;
-    //
-    // let anchor = document.querySelectorAll(".anchor")
-    // anchor.style.paddingTop = header_height;
-    // anchor.style.marginTop = "-1" + header_height;
-
     let header_height = document.getElementById("header").offsetHeight;
     if (header_height > 0) {
         document.getElementById("article").style.paddingTop = String(header_height * .7) + "px";
     }
 }
+
 
 let counter = 1;
 
