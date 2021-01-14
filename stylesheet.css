@@ -24,7 +24,7 @@ header {
     position: fixed;
     transform: translateZ(0);
     background-color: #333333;
-    box-shadow: 0 0 .8em 0 #333333;
+    box-shadow: 0 0 .6em 0 #333333;
     z-index: 1;
 }
 
