@@ -8,26 +8,32 @@
     <script type="text/javascript" src="click_to_cycle_img.js"></script>
 </head>
 <body>
-<header>
-    <h1 id="title"><img id="logo" src="img/snorlax_zzz.png" alt="Snorlax"/>Snormax</h1>
-    <h6 id="subtitle">A simple site for my extracurricular projects</h6>
-    <nav>
-        <a href="#crypto">Crypto</a>
-        <a href="#scraper">Scraper</a>
-        <a href="#reddit_bot">Reddit Bot</a>
-        <a href="#api_test">API Test</a>
-        <a href="#flashcard">Flashcard</a>
-        <a href="#website">Website</a>
-        <a href="#about_me">About Me</a>
-    </nav>
+<header id="header">
+    <div id="titles_background">
+        <div id="titles_content">
+            <h1 id="title"><img id="logo" src="img/snorlax_zzz.png" alt="Snorlax"/>Snormax</h1>
+            <h6 id="subtitle">A simple site for my extracurricular projects</h6>
+        </div>
+    </div>
+    <div id="nav_background">
+        <nav>
+            <a href="#crypto">Crypto</a>
+            <a href="#scraper">Scraper</a>
+            <a href="#reddit_bot">Reddit Bot</a>
+            <a href="#api_test">API Test</a>
+            <a href="#flashcard">Flashcard</a>
+            <a href="#website">Website</a>
+            <a href="#about_me">About Me</a>
+        </nav>
+    </div>
 </header>
-<article>
+<article id="article">
     <div id="crypto" class="anchor">
         <h2>Cryptocurrency Arbitrage</h2>
         <h4><i>Utilizes: Python, CircleCI, Docker, PyTest, AWS: EC2, DynamoDB, Cloud9</i></h4>
         <p>Working as a team of two to develop an algorithm that leverages minor price variations between exchanges via
             high-frequency trading.<br><i>This is my current project -- more
-            details to come!</i></p>
+                details to come!</i></p>
         <h3>Details:</h3>
         <ul>
             <li>Using 'pipenv' instead of my usual 'venv'.</li>
@@ -82,8 +88,12 @@
         <p>Improve REST API and JSON familiarity.</p>
         <h3>Features:</h3>
         <ul>
-            <li>Developed and consumed a REST API for the hypothetical problem of maximizing attendees to a two-day event.</li>
-            <li>Provided an authenticated POST endpoint to verify the solution, responded with a JSON payload and status.</li>
+            <li>Developed and consumed a REST API for the hypothetical problem of maximizing attendees to a two-day
+                event.
+            </li>
+            <li>Provided an authenticated POST endpoint to verify the solution, responded with a JSON payload and
+                status.
+            </li>
         </ul>
         <img src="img/api_test_tests.png" alt="Unittest">
     </div>
@@ -148,5 +158,8 @@
         <br>My <a href="https://github.com/snormax">GitHub</a>
     </p>
 </footer>
+<script>
+    set_buffers()
+</script>
 </body>
 </html>

@@ -14,51 +14,68 @@ body {
 }
 
 header {
-    text-align: left;
-    font-size: 185%;
-    color: white;
-    margin: 0;
-    padding: 0;
+    font-size: 1.85em;
     horiz-align: center;
     width: 100%;
     position: fixed;
     transform: translateZ(0);
-    background-color: #333333;
     box-shadow: 0 0 .6em 0 #333333;
     z-index: 1;
 }
 
+#titles_background{
+    padding: 0;
+    margin: auto;
+    horiz-align: center;
+    background-color: #333333;
+}
+
+#titles_content {
+    padding: 0;
+    margin: auto;
+    color: white;
+    max-width: 600px;
+    horiz-align: center;
+}
+
 #logo {
-    padding: 0 5px 0 20px;
+    padding: 0 .1em 0 .25em;
     margin: 0 0 -.1em 0;
     height: .9em;
 }
 
 #title {
-    margin: .1em 0 0 0;
-    padding: 0;
+    margin: 0;
+    padding: .1em 0 0 0;
     line-height: 0;
 }
 
 #subtitle {
-    padding: .25em .25em .25em 1em;
+    padding: .25em .25em .25em .9em;
     margin: 0;
     font-size: .61em;
     font-weight: normal;
     font-style: italic;
 }
 
-.anchor:target {
+.anchor {
     padding-top: 7.1em;
     margin-top: -7.1em;
 }
 
-nav {
+#nav_background {
+    margin: 0;
+    padding: 0;
     width: 100%;
     background: #ccc;
+}
+
+nav {
+    max-width: 600px;
+    margin: auto;
     overflow: auto;
-    margin: 0;
-    padding-left: .5em;
+    horiz-align: center;
+    padding: 0 .25em 0 .25em;
 }
 
 nav a {
@@ -80,7 +97,7 @@ nav li {
 }
 
 article {
-    padding: 6em 1em 0 1em;
+    padding: 0 1em 0 1em;
     width: 100%;
     background-color: #f1f1f1;
     max-width: 600px;
@@ -89,7 +106,7 @@ article {
 }
 
 div {
-    padding: 2em 0 2em 0
+    padding: 1em 0 1em 0
 }
 
 h2 {
