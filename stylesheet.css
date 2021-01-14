@@ -58,7 +58,7 @@ header {
     font-style: italic;
 }
 
-.anchor {
+.anchor:target {
     padding-top: 7.1em;
     margin-top: -7.1em;
 }
@@ -110,7 +110,7 @@ div {
 }
 
 h2 {
-    padding-top: .5em;
+    padding-top: 1.5em;
     margin-bottom: -.9em;
 }
 
