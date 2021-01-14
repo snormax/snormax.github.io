@@ -49,8 +49,8 @@ header {
 }
 
 .anchor:target {
-    padding-top: 8em;
-    margin-top: -8em;
+    padding-top: 8.1em;
+    margin-top: -8.1em;
 }
 
 nav {
@@ -80,7 +80,7 @@ nav li {
 }
 
 article {
-    padding: 7.5em 1em 0 1em;
+    padding: 6em 1em 0 1em;
     width: 100%;
     background-color: #f1f1f1;
     max-width: 600px;
@@ -89,10 +89,11 @@ article {
 }
 
 div {
-    padding: 1em 0 1em 0
+    padding: 2em 0 2em 0
 }
 
 h2 {
+    padding-top: .5em;
     margin-bottom: -.9em;
 }
 
