@@ -77,9 +77,19 @@
             <li>Parties to the match then private message the bot as prompted.</li>
             <li>After 5 minutes (or the above) the bot will reply with the result.</li>
             <li>Code is public on my GitHub, though a bit old.</li>
-            <li>Click the image below to cycle to the next:</li>
         </ul>
-        <img src="img/bot_winner.png" alt="reddit_bot slides" id="reddit_bot_img" onclick="click_to_cycle_img()">
+        <div class="img-nav">
+            <img class="nav-arrow" src="img/left-arrow.svg" alt="left arrow" id="left-reddit-bot" onclick="left_cycle_reddit_bot_img()">
+            <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-0" onclick="reddit_dot_0()">
+            <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-1" onclick="reddit_dot_1()">
+            <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-2" onclick="reddit_dot_2()">
+            <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-3" onclick="reddit_dot_3()">
+            <img class="nav-arrow" src="img/right-arrow.svg" alt="right arrow" id="right-reddit-bot" onclick="right_cycle_reddit_bot_img()">
+        </div>
+        <div>
+            <img src="img/bot_winner.png" alt="reddit_bot slides" id="reddit_bot_img">
+        </div>
+
     </div>
     <hr>
     <div id="api_test" class="anchor">
@@ -160,6 +170,7 @@
 </footer>
 <script>
     set_buffers()
+    check_reddit_counter_switch()
 </script>
 </body>
 </html>
