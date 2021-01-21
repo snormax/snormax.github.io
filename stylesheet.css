@@ -23,6 +23,49 @@ header {
     z-index: 1;
 }
 
+article {
+    padding: 10em 1em 0 1em;
+    width: 100%;
+    background-color: #f1f1f1;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+div {
+    padding: 1em 0 1em 0
+}
+
+
+img {
+    padding: 0 1em 0 1em;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h2 {
+    margin-bottom: -.9em;
+}
+
+hr {
+    margin: 5em 0 4em 0;
+}
+
+li {
+    padding-right: 1em;
+}
+
+p {
+    padding: 0 1em 0 1em;
+}
+
+/* Fix Overlap ------------------------------ */
+.anchor:target {
+    padding-top: 11em;
+    margin-top: -11em;
+}
+
+/* Title Style ------------------------------ */
 #titles_background{
     padding: 0;
     margin: 0;
@@ -58,11 +101,6 @@ header {
     font-style: italic;
 }
 
-.anchor:target {
-    padding-top: 7.1em;
-    margin-top: -7.1em;
-}
-
 #nav_background {
     margin: 0;
     padding: 0;
@@ -70,6 +108,7 @@ header {
     background: #ccc;
 }
 
+/* Nav Bar Style ------------------------------ */
 nav {
     max-width: 600px;
     margin: auto;
@@ -95,19 +134,7 @@ nav li {
     display: inline;
 }
 
-article {
-    padding: 0 1em 0 1em;
-    width: 100%;
-    background-color: #f1f1f1;
-    max-width: 600px;
-    margin: auto;
-    position: relative;
-}
-
-div {
-    padding: 1em 0 1em 0
-}
-
+/* Carousel Style ------------------------------ */
 .img-nav {
     margin: -1em 0 -2.5em 0;
     text-align: center;
@@ -130,29 +157,7 @@ div {
     max-height: 3em;
 }
 
-img {
-    padding: 0 1em 0 1em;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-h2 {
-    padding-top: 1.5em;
-    margin-bottom: -.9em;
-}
-
-hr {
-    margin: 5em 0 2em 0;
-}
-
-li {
-    padding-right: 1em;
-}
-
-p {
-    padding: 0 1em 0 1em;
-}
-
+/* Footer Style ------------------------------ */
 footer {
     background-color: #333333;
     text-align: center;

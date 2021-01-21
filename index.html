@@ -22,6 +22,7 @@
             <a href="#reddit_bot">Reddit Bot</a>
             <a href="#api_test">API Test</a>
             <a href="#flashcard">Flashcard</a>
+            <a href="#beat_sort">Beat Sort()</a>
             <a href="#website">Website</a>
             <a href="#about_me">About Me</a>
         </nav>
@@ -80,13 +81,13 @@
         </ul>
         <div class="img-nav">
             <img class="nav-arrow" src="img/left-arrow.svg" alt="left arrow" id="left-reddit-bot"
-                 onclick="left_cycle_reddit_bot_img()">
+                 onclick="reddit_left()">
             <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-0" onclick="reddit_dot_0()">
             <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-1" onclick="reddit_dot_1()">
             <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-2" onclick="reddit_dot_2()">
             <img class="nav-dot" src="img/dot.svg" alt="dot" id="dot-reddit-bot-3" onclick="reddit_dot_3()">
             <img class="nav-arrow" src="img/right-arrow.svg" alt="right arrow" id="right-reddit-bot"
-                 onclick="right_cycle_reddit_bot_img()">
+                 onclick="reddit_right()">
         </div>
         <div>
             <img src="img/bot_winner.png" alt="reddit_bot slides" id="reddit_bot_img">
@@ -140,6 +141,22 @@
         <img src="img/jekyll_slate.png" alt="Slate">
     </div>
     <hr>
+    <div id="beat_sort" class="anchor">
+        <h2>Beat Arrays.sort()</h2>
+        <h4><i>Utilizes: Java</i></h4>
+        <p>Quicksort times can be beaten -- and mine is another new method!</p>
+        <h3>Some known examples:</h3>
+        <ul>
+            <li>Short arrays using Insertion Sort.</li>
+            <li>Completely sorted arrays using Insertion Sort.</li>
+            <li>Integer arrays using Radix Sort.</li>
+            <li>And now my way!</li>
+        </ul>
+        <p>I fully intend to write a paper on this subject, so details will be sparse, but essentially my condition is O(n*k). The
+        graph below shows sort times as the ideal conditions decrease (increasing k).</p>
+        <img src="img/sort_times.png" alt="Slate">
+    </div>
+    <hr>
     <div id="about_me" class="anchor">
         <h2>About Me</h2>
         <br>
@@ -172,8 +189,7 @@
     </p>
 </footer>
 <script>
-    set_buffers()
-    check_reddit_counter_switch()
+    reddit_check_counter_switch()
 </script>
 </body>
 </html>
