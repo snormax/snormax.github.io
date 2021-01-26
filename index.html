@@ -152,8 +152,18 @@
             <li>Integer arrays using Radix Sort.</li>
             <li>And now my way!</li>
         </ul>
-        <p>I fully intend to write a paper on this subject, so details will be sparse, but essentially my condition is O(n*k). The
-        graph below shows sort times as the ideal conditions decrease (increasing k).</p>
+        <p><i>I fully intend to write a paper on this subject, so details will be sparse.</i></p>
+        <p>I chose Arrays.sort() as a competitor by virtue of its prevalent nature and compile efficiency. The advantage
+            of the native sort method's compile efficiency proved to be very important: the same algorithm run in Python
+            was slow due to poor compile efficiency — I even began to doubt my validity until I ran the tests again
+            using a Quicksort written in Python and beat it brutally.</p>
+        <p>My methodology in comparing the two is simple: both Arrays.sort() and my sort were timed sorting deep clones
+            of the same source: a 10,000,000 item pseudo-random Integer array. The median of 1000 runs (with different
+            source arrays each time) was recorded. After each 1000 run batch, additional variables controlling my
+            sort's ideal conditions were decreased incrementally (increasing the k in O(n*k)). These median sort times
+            are graphed below and illustrate the multi-fold efficiency my method has over Quicksort, it's just not
+            an all-purpose method.</p>
+        <p>What is my algorithm? What are these “ideal conditions”? Well, what’s it worth to you?</p>
         <img src="img/sort_times.png" alt="Slate">
     </div>
     <hr>
